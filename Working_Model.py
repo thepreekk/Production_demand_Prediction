@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 
-data = pd.read_csv("data.csv")
+data = pd.read_csv("Productdata.csv")
 data_head = data.head()
 # print(data_head)
 
